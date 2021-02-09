@@ -1,41 +1,22 @@
-<html lang="en"> <!--start of website and language of website-->
-<head>
-  <meta charset="UTF-8"> <!--charset  select-->
-  <link rel="stylesheet" type="text/css" href="style.css"> <!--CSS import-->
-  <title>Template by Matter</title> <!--Title in browser-->
-  <link rel="icon" href="ikonka.ico">  <!--Favicon import-->
+  <html lang="en"> 
+  <head>
+      <meta charset="UTF-8">
+      <title>Simple Landing Page</title>
+      <link rel="stylesheet" type="text/css" href="Resources/style.css"> 
+      <link rel="icon" href="Resources/icon.ico">  
+  </head>
+  <body>
+    <div class="v-header container">
+      <div id="particles-js"></div>
+        <div class="header-content text-md-center">
+          <h1>Simple Landing Page</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quidem ea repudiandae, porro obcaecati cum commodi unde! Corporis quam non aliquam debitis, aspernatur totam itaque illo eius deleniti repellat quas?</p>
+          <a class="btn" href="#">Contact</a>
+          <script src="Resources/particles.js"></script>
+          <script src="Resources/app.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js" integrity="sha512-jq8sZI0I9Og0nnZ+CfJRnUzNSDKxr/5Bvha5bn7AHzTnRyxUfpUArMzfH++mwE/hb2efOo1gCAgI+1RMzf8F7g==" crossorigin="anonymous"></script>
+      </div>
+    </div>
+  </body>
+  </html>
 
- <!--Animated Title-->
-  <script>
-    let title = 'Julian Czapski 8E';
-    let i = 0;
-    setInterval(() => {
-      document.title = title.substring(0, i + 1);
-      if (i == 0) {
-        direction = 1;
-      } else if (i == title.length) {
-        direction = -1;
-      }
-      i += direction;
-    }, 250);
-    </script>
- <!--End of Animated Title-->
-</head>
-<body>
-   <!--Main-->
-  <div class="v-header container">
-    <div class="background">
-      <video autoplay muted loop id="myVideo">  <!--Video background-->
-        <source src="video.mp4" type="video/mp4"> <!--Video background-->
-      </video>
-    </div>
-    <div class="header-overlay"></div>
-    <div class="header-content text-md-center">
-      <h1>Template by Matter</h1>
-      <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
-         Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki.</p>
-      <a class="btn" href="#">Contact</a>
-    </div>
-  </div>
-</body>
-</html>
