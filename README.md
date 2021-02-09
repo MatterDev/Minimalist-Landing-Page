@@ -1,5 +1,4 @@
-Minimalist-Landing-Page
-Landing Page with:
+Minimalist-Landing-Page with
 Header
 text
 button
