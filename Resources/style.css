@@ -11,6 +11,7 @@ body{
   background-image: url(bg.jpg);
   color:#333;
   overflow-x:hidden;
+  background-repeat:no-repeat;
 }
 
 .v-header{
